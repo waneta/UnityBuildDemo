@@ -1,0 +1,488 @@
+
+LICENSE SYSTEM [201887 21:37:1] Next license update check is after 2027-06-08T00:00:00
+
+Built from '5.3/release' branch; Version is '5.3.1f1 (cc9cbbcc37b4) revision 13409467'; Using compiler version '160040219'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'zh' Physical Memory: 8070 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity5_3_1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity5_3_1f1/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityScript'
+Mono config path = 'D:/Program Files/Unity5_3_1f1/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56644
+
+ BATCHMODE ARGUMENTS:
+
+-quit
+-batchmode
+-executeMethod
+CommandBuild.BuildWindowsStandalone
+-buildTarget
+win32
+-projectPath
+D:\waneta_github\UnityBuildDemo\UnityBuildDemo\
+-logFile
+RunUnity.log
+-buildWindowsPlayer
+D:\OUTPUT\mySwingPro.exe
+Successfully changed project path to: D:\waneta_github\UnityBuildDemo\UnityBuildDemo\
+D:/waneta_github/UnityBuildDemo/UnityBuildDemo
+Loading GUID <-> Path mappings...0.000137 seconds
+Loading Asset Database...0.004624 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.013973 seconds
+Targeting platform: win32
+Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\PackageManager\Unity\PackageManager\5.3.1\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v5.3.1 for Unity v5.3.1f1
+Setting Android v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\AndroidPlayer
+Setting StandaloneWindows v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport
+Setting Advertisements v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Advertisements
+  UnityEngine.Advertisements.dll (Extension) GUID: 739bbd9f364b4268874f9fd86ab3beef
+  Editor/UnityEditor.Advertisements.dll (Extension) GUID: 97decbdab0634cdd991f8d23ddf0dead
+Setting EditorTestsRunner v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner
+  Editor/nunit.framework.dll (Extension) GUID: 7cbab2be89b54486bbd23a6fe637d30e
+  Editor/UnityEditor.EditorTestsRunner.dll (Extension) GUID: 3c0ad459c1534645b5d603b7cc258f97
+Setting GUISystem v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\GUISystem
+  UnityEngine.UI.dll (Extension) GUID: f5f67c52d1564df4a8936ccd202a3bd8
+  Editor/UnityEditor.UI.dll (Extension) GUID: 80a3616ca19596e4da0f10f14d241e9f
+Setting UNetHLAPI v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Networking
+  UnityEngine.Networking.dll (Extension) GUID: 870353891bb340e2b2a9c8707e7419ba
+  Editor/UnityEditor.Networking.dll (Extension) GUID: 5f32cd94baa94578a686d4b9d6b660f7
+Setting TreeEditor v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\TreeEditor
+  Editor/UnityEditor.TreeEditor.dll (Extension) GUID: adebbd281f1a4ef3a30be7f21937e02f
+Setting UnityAnalytics v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics
+  UnityEngine.Analytics.dll (Extension) GUID: 852E56802EB941638ACBB491814497B0
+Setting UnityPurchasing v5.3.1 for Unity v5.3.1f1 to D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing
+  UnityEngine.Purchasing.dll (Extension) GUID: 8E0CD8ED44D4412CBE0642067ABC9E44
+Registering custom dll's ...
+Register platform support module: D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015588 seconds.
+Non platform assembly: D:\waneta_github\UnityBuildDemo\UnityBuildDemo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading D:\waneta_github\UnityBuildDemo\UnityBuildDemo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\PackageManager\Unity\PackageManager\5.3.1\Unity.PackageManager.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\PackageManager\Unity\PackageManager\5.3.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading D:\Program Files\Unity5_3_1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\nunit.core.interfaces.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\nunit.core.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Registering platform support modules:
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Registered platform support modules in: 0.0694921s.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Validating Project structure ... 0.000450 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.001006 seconds (Nothing changed)
+Warming cache for 44 main assets: 0.000121 seconds elapsed
+Initializing Unity extensions:
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll' 
+ 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' 
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 13.7 MB.
+System memory in use after: 13.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 430.
+Total: 0.598655 ms (FindLiveObjects: 0.038641 ms CreateObjectMapping: 0.008196 ms MarkObjects: 0.549475 ms  DeleteObjects: 0.001756 ms)
+
+icons size 7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CommandBuild:BuildWindowsStandalone() (at Assets\Editor\CommandBuild.cs:14)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 14)
+
+replace file from Assets/Resources/icons/msp.png to all icons
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CommandBuild:BuildWindowsStandalone() (at Assets\Editor\CommandBuild.cs:19)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 19)
+
+replace file from Assets/Resources/icons/msp.png to Assets/Annex/Textures/UI/defaulticon.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CommandBuild:BuildWindowsStandalone() (at Assets\Editor\CommandBuild.cs:22)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 22)
+
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 98.304535 ms] 
+Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
+ done. [Time: 22.673388 ms] 
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.180085s, AssetImport time: 0.136589s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Platform assembly: D:\Program Files\Unity5_3_1f1\Editor\Data\Managed\Unity.CecilTools.dll (this message is harmless)
+DisplayProgressbar: Building Player
+building target 5
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for WindowsStandaloneSupport
+
+Packing sprites:
+- Grouping sprites using the selected SpritePackerPolicy.
+- Packing 0 atlases.
+- Packing completed.
+Opening scene 'Assets/Scenes/Main.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 26.5 MB.
+System memory in use after: 26.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.769327 ms (FindLiveObjects: 0.086651 ms CreateObjectMapping: 0.012002 ms MarkObjects: 1.667453 ms  DeleteObjects: 0.002634 ms)
+
+Load scene 'Assets/Scenes/Main.unity' time: 47.280918 ms 
+Iterative baking GI data 0 ms
+Ignoring D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+Ignoring D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+Ignoring D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll
+
+
+Mono dependencies included in the build
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.1 MB.
+System memory in use after: 40.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 2.012888 ms (FindLiveObjects: 0.051522 ms CreateObjectMapping: 0.013466 ms MarkObjects: 1.769913 ms  DeleteObjects: 0.177401 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: a54 -> priority: 1 
+System memory in use before: 27.2 MB.
+System memory in use after: 27.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.798308 ms (FindLiveObjects: 0.088407 ms CreateObjectMapping: 0.012295 ms MarkObjects: 1.694678 ms  DeleteObjects: 0.002634 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.8 MB.
+System memory in use after: 27.6 MB.
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 9.611277 ms (FindLiveObjects: 0.058548 ms CreateObjectMapping: 0.014929 ms MarkObjects: 1.740346 ms  DeleteObjects: 7.796868 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.2 MB.
+System memory in use after: 27.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.851587 ms (FindLiveObjects: 0.086358 ms CreateObjectMapping: 0.012587 ms MarkObjects: 1.749128 ms  DeleteObjects: 0.002634 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.3 MB.
+System memory in use after: 27.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.884082 ms (FindLiveObjects: 0.098946 ms CreateObjectMapping: 0.013466 ms MarkObjects: 1.768156 ms  DeleteObjects: 0.002927 ms)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.030000 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.030000 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.030000 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.030000 seconds
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 29.1 MB.
+System memory in use after: 27.9 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 2.247666 ms (FindLiveObjects: 0.108314 ms CreateObjectMapping: 0.012002 ms MarkObjects: 1.982443 ms  DeleteObjects: 0.144028 ms)
+
+
+Textures      14.3 mb	 76.2% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       78.6 kb	 0.4% 
+Other Assets  1.2 kb	 0.0% 
+Levels        1.4 kb	 0.0% 
+Scripts       443.5 kb	 2.3% 
+Included DLLs 3.9 mb	 20.9% 
+File headers  16.4 kb	 0.1% 
+Complete size 18.8 mb	 100.0% 
+
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 4.0 mb	 21.3% Assets/Resources/icons/mst.png
+ 4.0 mb	 21.3% Assets/Resources/icons/mse.png
+ 4.0 mb	 21.3% Assets/Resources/icons/msb.png
+ 1.3 mb	 7.1% Assets/Resources/icons/msv.png
+ 1.0 mb	 5.3% Assets/Resources/icons/msp.png
+ 79.5 kb	 0.4% Resources/unity_builtin_extra
+ 4.0 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 1.8 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 0.1 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+ArgumentException: Path is empty
+  at System.IO.Directory.CreateDirectory (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/Directory.cs:78 
+  at UnityEditor.FileUtil.CopyDirectoryFiltered (System.String source, System.String target, Boolean overwrite, System.Func`2 includeCallback, Boolean recursive) [0x0000b] in C:\buildslave\unity\build\Editor\Mono\FileUtil.cs:129 
+  at DesktopStandalonePostProcessor.CopyStagingAreaIntoDestination () [0x0006e] in C:\buildslave\unity\build\Editor\Mono\BuildPipeline\DesktopStandalonePostProcessor.cs:194 
+  at DesktopStandalonePostProcessor.PostProcess () [0x00006] in C:\buildslave\unity\build\Editor\Mono\BuildPipeline\DesktopStandalonePostProcessor.cs:25 
+  at UnityEditor.WindowsStandalone.WindowsDesktopStandalonePostProcessor.PostProcess (BuildPostProcessArgs args) [0x00007] in C:\buildslave\unity\build\PlatformDependent\WinPlayer\Extensions\Managed\WindowsDesktopStandalonePostProcessor.cs:131 
+  at UnityEditor.PostprocessBuildPlayer.Postprocess (BuildTarget target, System.String installPath, System.String companyName, System.String productName, Int32 width, Int32 height, System.String downloadWebplayerUrl, System.String manualDownloadWebplayerUrl, BuildOptions options, UnityEditor.RuntimeClassRegistry usedClassRegistry) [0x000c5] in C:\buildslave\unity\build\Editor\Mono\BuildPipeline\PostprocessBuildPlayer.cs:316 
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at C:\buildslave\unity\build\artifacts\generated\common\editor\BuildPipelineBindings.gen.cs:212)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\artifacts\generated\common\editor\BuildPipelineBindings.gen.cs:152)
+CommandBuild:BuildWindowsStandalone() (at Assets\Editor\CommandBuild.cs:24)
+ 
+(Filename: /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/Directory.cs Line: 78)
+
+DisplayProgressNotification: Build Failed
+Error building Player: ArgumentException: Path is empty
+ 
+(Filename:  Line: -1)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.9 MB.
+System memory in use after: 28.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.946435 ms (FindLiveObjects: 0.109777 ms CreateObjectMapping: 0.014929 ms MarkObjects: 1.817922 ms  DeleteObjects: 0.002927 ms)
+
+Load scene 'Temp/__Backupscenes/0.backup' time: 43.326862 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.9 MB.
+System memory in use after: 28.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.685310 ms (FindLiveObjects: 0.081674 ms CreateObjectMapping: 0.010538 ms MarkObjects: 1.590462 ms  DeleteObjects: 0.002341 ms)
+
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 5
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.0 MB.
+System memory in use after: 28.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 2.411016 ms (FindLiveObjects: 0.139052 ms CreateObjectMapping: 0.020199 ms MarkObjects: 2.236249 ms  DeleteObjects: 0.014344 ms)
+
+
+*** Cancelled 'Build.Player.WindowsStandaloneSupport' in 2 seconds (2387 ms)
+
+building x86 windows player!
+building target 5
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for WindowsStandaloneSupport
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for WindowsStandaloneSupport
+
+Packing sprites:
+- Repacking is not required. Check took 0.142272 ms.
+Opening scene 'Assets/Scenes/Main.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.1 MB.
+System memory in use after: 28.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.740638 ms (FindLiveObjects: 0.092506 ms CreateObjectMapping: 0.012295 ms MarkObjects: 1.632617 ms  DeleteObjects: 0.002634 ms)
+
+Load scene 'Assets/Scenes/Main.unity' time: 46.729977 ms 
+Iterative baking GI data 0 ms
+Ignoring D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+Ignoring D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+Ignoring D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll
+
+
+Mono dependencies included in the build
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.9 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 1.996201 ms (FindLiveObjects: 0.052693 ms CreateObjectMapping: 0.014051 ms MarkObjects: 1.759374 ms  DeleteObjects: 0.169789 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.1 MB.
+System memory in use after: 28.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.660427 ms (FindLiveObjects: 0.065866 ms CreateObjectMapping: 0.010245 ms MarkObjects: 1.581095 ms  DeleteObjects: 0.002634 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.6 MB.
+System memory in use after: 28.4 MB.
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 9.996525 ms (FindLiveObjects: 0.063232 ms CreateObjectMapping: 0.015222 ms MarkObjects: 1.877056 ms  DeleteObjects: 8.040134 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.1 MB.
+System memory in use after: 28.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.955803 ms (FindLiveObjects: 0.089578 ms CreateObjectMapping: 0.012587 ms MarkObjects: 1.850416 ms  DeleteObjects: 0.002927 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.1 MB.
+System memory in use after: 28.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 1.846318 ms (FindLiveObjects: 0.091920 ms CreateObjectMapping: 0.013758 ms MarkObjects: 1.736247 ms  DeleteObjects: 0.003512 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 29.9 MB.
+System memory in use after: 28.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 2.023719 ms (FindLiveObjects: 0.091920 ms CreateObjectMapping: 0.011124 ms MarkObjects: 1.771084 ms  DeleteObjects: 0.148712 ms)
+
+
+Textures      14.3 mb	 76.2% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       78.6 kb	 0.4% 
+Other Assets  1.2 kb	 0.0% 
+Levels        1.4 kb	 0.0% 
+Scripts       443.5 kb	 2.3% 
+Included DLLs 3.9 mb	 20.9% 
+File headers  16.4 kb	 0.1% 
+Complete size 18.8 mb	 100.0% 
+
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 4.0 mb	 21.3% Assets/Resources/icons/mst.png
+ 4.0 mb	 21.3% Assets/Resources/icons/mse.png
+ 4.0 mb	 21.3% Assets/Resources/icons/msb.png
+ 1.3 mb	 7.1% Assets/Resources/icons/msv.png
+ 1.0 mb	 5.3% Assets/Resources/icons/msp.png
+ 79.5 kb	 0.4% Resources/unity_builtin_extra
+ 4.0 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 1.8 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 0.1 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+DisplayProgressNotification: Build Successful
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.9 MB.
+System memory in use after: 28.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.901061 ms (FindLiveObjects: 0.101581 ms CreateObjectMapping: 0.016686 ms MarkObjects: 1.779280 ms  DeleteObjects: 0.003220 ms)
+
+Load scene 'Temp/__Backupscenes/0.backup' time: 44.872536 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.9 MB.
+System memory in use after: 28.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.824362 ms (FindLiveObjects: 0.083431 ms CreateObjectMapping: 0.010831 ms MarkObjects: 1.727172 ms  DeleteObjects: 0.002634 ms)
+
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+Ignoring 'D:/Program Files/Unity5_3_1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 5
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.0 MB.
+System memory in use after: 28.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 2.292748 ms (FindLiveObjects: 0.134075 ms CreateObjectMapping: 0.016393 ms MarkObjects: 2.136424 ms  DeleteObjects: 0.004683 ms)
+
+
+*** Completed 'Build.Player.WindowsStandaloneSupport' in 3 seconds (2952 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.001167 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.001119 seconds (Nothing changed)
+Cleanup mono
+Exiting batchmode successfully now!
